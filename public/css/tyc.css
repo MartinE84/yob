@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'Baumans-Regular';
+    src: url(../fonts/Baumans-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto-Regular';
+}
+.mobile {
+    display: block !important;
+}
+.desktop {
+    display: none !important;
+}
+.fluid-yob {
+    /*max-width: 1440px;*/
+}
+.nav-yob {
+    background-color: #F3F2F2;
+    background-size: 100% auto;
+    /* position: relative;*/
+}
+.nav-yob .navi {
+    height: 43px;
+    border-bottom: 1px solid #ABABAB;
+    padding: 7px 3px 75px;
+}
+.nav-yob .navi .logo img,
+.nav-yob .navi .logo span {
+    padding-right: 0px;
+    cursor: pointer;
+}
+.nav-yob .navi .header-nav {
+    padding-left: 0px;
+}
+.nav-yob .navi .header-nav a:first-child span
+{
+	line-height: 45px;
+
+}
+.nav-yob .navi .header-nav a:hover
+{
+    opacity: 1;
+
+}
+
+
+.nav-yob .navi img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 7px;
+}
+.nav-yob .navi span.logo-yob {
+    font-size: 24px;
+
+    color: #000;
+    font-family: 'Baumans-Regular';
+    margin-left: 5px;
+}
+.nav-yob .navi .header-nav {
+    text-align: right;
+}
+.nav-yob .navi a {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #000;
+    opacity: 0.6;
+    margin-left: 4px;
+}
+.nav-yob .navi a:last-child {
+    opacity: 1;
+    color: #fff;
+}
+.nav-yob .navi a:hover,
+.nav-yob .navi a:focus,
+.nav-yob .navi a:active {
+    text-decoration: none;
+}
+.nav-yob .navi a.btn-blue {
+    height: 26px;
+    width: 71px;
+    border-radius: 40px;
+    background-color: #207CE8;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding-top: 6px;
+    margin-left: 10px;
+}
+.nav-yob .navi a.mobile {
+    display: inline-block !important;
+}
+.nav-yob .navi a.btn-blue:hover {
+    opacity: 0.9;
+}
+.body-contain .announcement {
+    display: none;
+}
+
+.tycs{
+	padding-top: 95px;
+}
+.tycs h2 {
+    text-align: center;
+}
+.tycs h4 {
+    font-family: 'Roboto-Thin';
+    font-weight: bold;
+    text-align: left;
+    padding: 15px 50px 10px 0px;
+    margin-top: 5px;
+    font-size: 19px;
+}
+.tycs p {
+    text-align: justify;
+}
+footer {
+    height: 128px;
+    padding: 35px 0px;
+    background: #4a5159;
+    color: #fff;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+footer img {
+    width: 22px;
+    margin-right: 10px;
+}
+footer span {
+    font-size: 12px;
+    opacity: 0.8;
+}
+footer .conditions {
+    padding-top: 15px;
+    margin-top: 15px;
+}
+footer a {
+    display: block;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 10px;
+    line-height: 10px;
+}
+footer a:hover {
+    color: #fff;
+}
+footer a:last-child {
+    margin-top: 14px;
+}

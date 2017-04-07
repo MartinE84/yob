@@ -1,0 +1,557 @@
+@font-face {
+font-family: 'Roboto-Thin';
+src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+font-family: 'Roboto-Regular';
+src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+font-family: 'Roboto-Medium';
+src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+font-family: 'Baumans-Regular';
+src: url(../fonts/Baumans-Regular.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Roboto-Regular';
+	
+
+}
+
+.mobile{display: block !important;}
+.desktop{display: none !important;}
+
+
+.fluid-yob{
+	/*max-width: 1440px;*/
+}
+
+.nav-yob{
+	background: url(../img/hero-image-small.jpg) no-repeat  fixed;
+	/*background-repeat: no-repeat;
+	-webkit-background-size: 100% 34%;
+  	-moz-background-size: 100% 34%;
+	-o-background-size: 100% 34%;*/
+    background-size: 100% auto;
+    min-height: 200px;
+   /* position: relative;*/
+}
+
+.nav-yob .navi {
+	height: 43px;
+	border-bottom: 1px solid #ABABAB;
+	padding: 7px 3px;
+}
+
+.nav-yob .navi .logo{
+	padding-right: 	0px;
+
+}
+
+.nav-yob .navi .header-nav{
+	padding-left: 0px;
+	
+}
+
+.nav-yob .navi img{
+	width: 30px;
+	height: 30px;
+	position: relative;	
+	bottom: 7px;
+}
+
+.nav-yob .navi span.logo-yob{
+	font-size: 24px;
+	color: #fff;
+	font-family: 'Baumans-Regular';
+	margin-left: 15px;
+}
+
+.nav-yob .navi .header-nav{
+	text-align: right;
+}
+
+.nav-yob .navi a{
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #fff;
+}
+
+.nav-yob .navi a:first-child{
+	opacity: 0.6;
+}
+
+.nav-yob .navi a:hover, .nav-yob .navi a:focus, .nav-yob .navi a:active{
+	text-decoration: none;
+}
+
+.nav-yob .navi a.btn-blue{
+	height: 26px;
+	width: 71px;
+	border-radius: 40px;
+	background-color: #4a90e2;
+	display: inline-block;
+	text-align: center;
+	padding-top: 6px;
+	margin-left: 10px;
+}
+
+.nav-yob .navi a.mobile{
+	display: 	inline-block !important;
+}
+
+
+.nav-yob .navi a.btn-blue:hover{
+	opacity: 0.9;
+}
+
+.nav-yob .head-title{
+	color: #fff;
+	padding-left: 0;
+	padding-top: 20px;
+   
+    /*padding-bottom: 115px;*/
+}
+
+
+.nav-yob .head-title h3{
+	font-family: 'Roboto-Thin';
+	font-size: 19px;
+
+}
+
+.nav-yob .head-title span{
+	font-size: 	12px;
+	opacity: 0.7;
+	margin-top: 15px;
+	padding-bottom: 40px;
+}
+
+.nav-yob .arrow{
+	display: none;
+}
+
+/* END HEADER */
+
+.body-contain{
+	
+}
+
+.body-contain .announcement{
+	display: none;
+}
+
+
+.body-contain .slideyob{
+	margin-top: 15px;
+	padding: 0px;
+}
+.body-contain .slideyob .control{
+	display:none;
+	height: 130px;
+}
+.body-contain .slideyob .controls :first-child{
+	display:block;
+}
+.body-contain .slideyob .control{
+	/* height: 144px */
+	padding: 0 10px 10px 10px;
+}
+
+
+.body-contain .slideyob .control h3{
+	font-size: 20px;
+	color: #4a4a4a;
+}
+
+.body-contain .slideyob .control span{
+	line-height: 24px;
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+.body-contain .slideyob .bullet{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom:10px;
+}
+
+.body-contain .slideyob .bullet div{
+	width: 56px;
+	height: 18px;
+	border-radius: 9px;
+	background: #9b9b9b;
+	margin: 0 auto;
+}
+
+.body-contain .slideyob .bullet div a{
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	cursor: pointer;
+	border-radius:50%;
+	border: 1px solid #fff;
+}
+
+.body-contain .slideyob .bullet div a.active{
+	background: #fff;
+}
+
+.body-contain .slide-img img{
+	
+}
+
+
+.body-contain .people-content{
+	margin-top: 20px;
+	border-top: 1px solid #E3E4E4;
+	border-bottom: 1px solid #E3E4E4;
+	padding:0;
+}
+
+.body-contain .people-content .people-img-content{
+	border-bottom: 1px solid #E3E4E4;
+    
+}
+
+.body-contain .people-content .people{
+	margin:20px 0;	
+}
+
+.body-contain .people-content .people h4, 
+.body-contain .tool h4, 
+.body-contain .plataform-text h4{
+	font-size: 20px;
+	padding:0;
+	margin:0;
+}
+
+.body-contain .people-content .people span, 
+.body-contain .tool span, 
+.body-contain .plataform-text span{
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	padding:0;
+	margin:10px 0 0 0;
+	display: block;
+	opacity: 0.7;
+}
+
+.body-contain .tool{
+	border-bottom: 1px solid #E3E4E4;
+	margin-top: 20px;
+	padding:0;
+	
+
+}
+
+.body-contain .tool .chat{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.body-contain .tool .chat p.bubble{
+	position: relative;
+	width: calc(100% - 56px);
+	background: #4A90E2;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+
+    padding: 5px 12px 0px 15px;
+    color: #fff;
+    line-height: 20px;
+    font-size: 8.9px;
+	float: left;
+}
+
+.body-contain .tool .chat p.bubble:after 
+{
+content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0px 0 15px 29px;
+    border-color: transparent #4A90E2;
+    display: block;
+    width: 0;
+    z-index: 1;
+    right: -20px;
+    top: 0px;
+
+}
+
+.body-contain .tool .chat p span{
+	display: none;
+}
+
+.body-contain .tool .chat img.chat-1{
+	
+    width: 32px;
+    margin-left: 15px;
+    float: right;
+}
+
+.body-contain .tool .chat .response{
+	margin-top: 9px;
+	clear: both;
+}
+
+.body-contain .tool .chat p.bubble2{
+	position: relative;
+	background: #F2F2F2;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	width: calc(100% - 56px);
+
+    padding: 5px 12px 0px 15px;
+    color: #4a4a4a;
+    line-height: 20px;
+    font-size: 8.9px;
+    display: inline-block;
+    margin-left: 5px;
+    float: right;
+
+}
+
+
+.body-contain .tool .chat p.bubble2:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0px 29px 15px 0;
+border-color: transparent #F2F2F2;
+display: block;
+width: 0;
+z-index: 1;
+left: -20px;
+top: 0px;
+}
+
+.body-contain .tool .chat p:last-child span{
+	display: block;
+	text-align: right;
+	font-size: 8.9px;
+	margin-top: -6px;
+}
+
+
+.body-contain .tool .chat img.chat-2{
+    width: 31px;
+    float: left;
+}
+
+.body-contain .tool .chat .response{
+	margin-top: 9px;
+}
+
+.body-contain .plataform{
+	padding: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.body-contain .users{
+	margin-bottom: 20px;
+}
+
+.body-contain .content-user{
+	border: 1px solid #BFBEBE;
+	margin-bottom: 10px;
+	border-radius: 7px;
+	padding:17px 28px 50px 6px;
+}
+
+.body-contain .content-user .user-name{
+	margin-top: -13px;
+}
+
+
+.body-contain .content-user img{
+	width: 28px;
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+
+.body-contain .content-user h5{
+	color: #4a90e2;
+	font-size: 10px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+}
+
+
+.body-contain .content-user a{
+	color: rgba(0, 0, 0, 0.87);
+	font-size: 6.8px;
+}
+
+.body-contain .content-user .button-ann{
+	text-align: right;
+}
+
+.body-contain .content-user a.ann{
+	text-transform: uppercase;
+	padding-top: 8px;
+	background: #4a90e2;
+	display: inline-block;
+	width: 100%;
+	height: 25px;
+	color: #fff;
+	border-radius: 4px;
+	text-align: center;
+	margin-top: 6px;
+}
+
+.body-contain .content-user a.ann:hover{
+	text-decoration: none;
+
+}
+
+.body-contain .content-user a.mail:hover{
+	text-decoration: none;
+	cursor: default;
+}
+
+
+.body-contain .searchs{
+	background: #4a90e2;
+	
+	color: #FFF;
+	padding:20px 0 0 0;
+	padding-bottom: 20px;
+}
+
+.body-contain .searchs .mobile{
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+.body-contain .searchs .search-text{
+	/* padding-right: 0;	 */
+}
+
+.body-contain .searchs h4{
+	font-size: 20px;
+	line-height: 24px;
+	margin-top: 20px;
+
+}
+
+.body-contain .searchs span{
+	font-size: 14px;
+	line-height: 20px;
+	opacity: 0.6;
+	padding-right: 30px;
+}
+
+.body-contain .searchs .hooli{
+	text-align: right;
+}
+
+.body-contain .searchs img{
+}
+
+.body-contain .access{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.body-contain .access span{
+	font-size: 20px;
+	line-height: 24px;
+	display: inline-block;
+
+}
+
+.body-contain .access a{
+	text-transform: uppercase;
+	
+	background: #4a90e2;
+	display: inline-block;
+	width: 150px;
+	height: 46px;
+	line-height: 46px;
+	color: #fff;
+	border-radius: 4px;
+	text-align: center;
+	position: relative;
+	margin-top: 20px;
+}
+
+
+.body-contain .access a:hover{
+	text-decoration: none;
+	opacity: 0.9;	
+}
+
+.body-contain .companies{
+	display: none;
+}
+
+.section-permiso{
+	margin-top:20px;
+}
+
+footer{
+	height: 128px;
+	padding:35px 0px;
+	background: #4a5159;
+	color: 	#fff;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+footer img{
+	width: 	22px;
+	margin-right: 10px;
+}
+
+footer span{
+	font-size: 10px;
+	opacity: 0.8;
+}
+
+footer .conditions{
+	padding-top: 15px;	
+}
+
+footer a{
+	display: block;
+	color: 	#fff;	
+	opacity: 0.8;
+	font-size: 10px;
+	line-height: 10px;
+}
+
+
+footer a:hover{
+	color: #fff;
+}
+
+footer a:last-child{
+	margin-top: 14px;
+}
+
+footer .TC{
+	margin-right:35px ;
+}
+
+.nav-yob .head-title span{
+	display:none;
+}

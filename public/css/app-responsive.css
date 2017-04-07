@@ -1,0 +1,162 @@
+@media screen and (min-width: 768px){
+	.navi-app{
+	padding:50px 100px 20px 100px;
+	height: 733px;
+}
+
+.navi-app .yob span{
+	font-size: 68px;
+	line-height: 49px;
+}
+
+.navi-app .description-app a{
+	padding:10px 20.5px;
+	    border-radius: 3px;
+	font-family: 14px;
+	margin-top: 0px;
+}
+.navi-app .recrutiers a, 
+.recrutiers-op a {
+	padding:10px 20.5px;
+	    border-radius: 40px;
+	font-family: 14px;
+	margin-top: 0px;
+}
+
+.navi-app .description-app h3:first-child{
+	margin-top: 80px;
+}
+
+.navi-app .description-app h3{
+	font-size: 60px;
+	line-height: 65px;
+
+}
+
+.navi-app .description-app p{
+	font-size: 18px;
+	line-height: 24px;
+	padding-right: 25px;
+	margin-top: 41px;
+}
+
+.navi-app .description-app span{
+	margin-top: 40px;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.navi-app .description-app input{
+	width: calc(100% - 87px);
+	padding-left: 20px;
+}
+
+.navi-app .description-app a{
+	padding:8px 24px;
+	margin-left: -6px;
+}
+
+.navi-app .nexus{
+	display: block;
+	text-align: center;
+}
+
+.body-app{
+	padding-top: 175px;
+	text-align: center;
+}
+
+
+.body-app .pic img{
+	width: 84px	
+}
+
+.body-app h4{
+	font-size: 30px;
+	line-height: 50px;
+}
+
+footer{
+	height: 191px;
+	padding:70px 140px;
+	background: #4a5159;
+	color: 	#fff;
+	/*margin-left: -15px;
+	margin-right: -15px;*/
+}
+
+footer img{
+	width: 	50px;
+}
+
+footer span{
+	font-size: 14px;
+}
+
+footer .conditions{
+	text-align: right;
+}
+
+footer a{
+	display: inline-block;
+	font-size: 14px;
+}
+
+footer a:last-child{
+	margin-top: 0px;
+}
+
+footer .TC{
+
+}
+/*app-open*/
+
+.navi-app .description-app .download{
+	margin-top: 50px;
+	width: 178px;
+}
+
+
+
+.body-footer-app{
+	padding: 158px 120px 50px 120px;
+    height: 292px;
+}
+
+.body-footer-app .condition-app img{
+	width: 50px;
+	margin-right: 20px;
+}
+
+.body-footer-app .condition-app span{
+	color: #9b9b9b;
+	opacity: 0.5;	
+}
+
+
+.body-footer-app .mk{
+	text-align: right;
+	display: block;
+}
+
+.body-footer-app .mk img{
+	margin-right: 20px;
+}
+
+.body-footer-app .mk img:first-child{
+	width: 64px;
+}
+
+.body-footer-app .mk img:nth-child(2){
+	width: 94px;
+}
+
+.body-footer-app .mk img:nth-child(3){
+	width: 125px;
+}
+
+.body-footer-app .mk img:last-child{
+	width: 37px;
+}
+
+}
